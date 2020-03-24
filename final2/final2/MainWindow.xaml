@@ -6,9 +6,8 @@
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="hello it's me" HorizontalAlignment="Left" Height="34" Margin="356,76,0,0" VerticalAlignment="Top" Width="76"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="11" Margin="432,165,0,0" Stroke="Black" VerticalAlignment="Top" Width="23"/>
+    <Grid Margin="-262,-73,-481.667,-19.333">
+        <Label Content="test: pushing&#xD;&#xA;" HorizontalAlignment="Left" Height="145" Margin="356,76,0,0" VerticalAlignment="Top" Width="361"/>
 
     </Grid>
 </Window>
