@@ -10,6 +10,7 @@
         <Label Content="test: pushing&#xD;&#xA;" HorizontalAlignment="Left" Height="145" Margin="356,76,0,0" VerticalAlignment="Top" Width="361"/>
         <CheckBox x:Name="llalaal" Content="CheckBox" HorizontalAlignment="Left" Margin="692,250,0,0" VerticalAlignment="Top"/>
         <Button Content="push test&#xD;&#xA;" HorizontalAlignment="Left" Height="75" Margin="416,324,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button Content="Sean:push test&#xD;&#xA;" HorizontalAlignment="Left" Height="72" Margin="653,111,0,0" VerticalAlignment="Top" Width="223" FontSize="24"/>
 
     </Grid>
 </Window>
