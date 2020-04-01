@@ -1,0 +1,28 @@
+﻿<Window x:Class="final2.Categories"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final2"
+        mc:Ignorable="d"
+        Title="Categories" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="652" HorizontalAlignment="Left" Margin="54,150,0,60">
+            <StackPanel Name="stackPanel1"   >
+                <Button  Height="100" Background="White">recipe 1</Button>
+                <Button  Height="100" Background="White">recipe 2</Button>
+                <Button  Height="100" Background="White">Button 2</Button>
+                <Button  Height="100" Background="White">Button 2</Button>
+                <Button  Height="100" Background="White">Button 2</Button>
+                <Button  Height="100" Background="White">Button 2</Button>
+                <Button  Height="100" Background="White">Button 2</Button>
+
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <TextBox Margin="300,56,298.6,310" Text="PASTRY" TextChanged="TextBox_TextChanged" FontFamily="Cooper Black" FontSize="40" Opacity="0.965" Foreground="#FF4398E2" BorderBrush="{x:Null}"></TextBox>
+    </Grid>
+
+
+</Window>
