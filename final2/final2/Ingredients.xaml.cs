@@ -15,25 +15,13 @@ using System.Windows.Shapes;
 namespace final2
 {
     /// <summary>
-    /// Interaction logic for Categories.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Categories : Window
+    public partial class Window1 : Window
     {
-        public Categories()
+        public Window1()
         {
             InitializeComponent();
-            
-            
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
