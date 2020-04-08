@@ -154,5 +154,8 @@
   <ItemGroup>
     <Resource Include="home.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cookie.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
