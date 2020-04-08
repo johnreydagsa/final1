@@ -73,12 +73,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Instruction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Instruction.xaml.cs">
+      <DependentUpon>Instruction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -108,10 +115,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="cookie.JPG" />
+    <Resource Include="explore.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="download.jpg" />
+    <Resource Include="healthy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="salad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pastry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mains.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="soup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dessert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="click.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crown.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

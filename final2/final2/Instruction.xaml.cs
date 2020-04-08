@@ -10,35 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace final2
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// harry
+    /// Interaction logic for Instruction.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Instruction : Window
     {
-        public MainWindow()
+        public Instruction()
         {
             InitializeComponent();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

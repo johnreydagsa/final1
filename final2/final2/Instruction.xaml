@@ -1,0 +1,15 @@
+﻿<Window x:Class="final2.Instruction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final2"
+        mc:Ignorable="d"
+        Title="Instruction" Height="492.857" Width="850.42">
+    <Grid>
+        <Label Content="Find your next recipe!!" HorizontalAlignment="Left" Height="47" Margin="223,62,0,0" VerticalAlignment="Top" Width="400" FontFamily="Cooper Black" FontSize="30" Foreground="#FF4398E2"/>
+        <Label Content="Answer questions to find most suitable recipe!" HorizontalAlignment="Left" Margin="132,114,0,0" VerticalAlignment="Top" Width="654" Foreground="#FF4398E2" FontFamily="Cooper Black" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="529,-140,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="52" Margin="165,193,0,0" VerticalAlignment="Top" Width="53" Source="food.jpg"/>
+    </Grid>
+</Window>
