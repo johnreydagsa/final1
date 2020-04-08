@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Savedrecipe" Height="450" Width="800">
     <Grid Margin="0,0,-6.667,-0.333">
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="652" HorizontalAlignment="Left" Margin="58,128,0,47">
+
+                <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="652" HorizontalAlignment="Left" Margin="58,128,0,47">
             <StackPanel Name="stackPanel1" Width="635.2"  >
                 <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
@@ -59,8 +60,9 @@
 
             </StackPanel>
         </ScrollViewer>
-        <Button Content="Back" Margin="58,10,654.6,379"/>
         <TextBox Margin="279,51,222,315" Text="Saved recipes"  FontFamily="Cooper Black" FontSize="40" Opacity="0.965" Foreground="#FF4398E2" BorderBrush="{x:Null}"></TextBox>
-    
+        <Image HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" VerticalAlignment="Top" Width="73" Source="house.png" Stretch="Fill"/>
+        <Label Content="Go back to main page" HorizontalAlignment="Right" Height="44" Margin="0,18,510,0" VerticalAlignment="Top" Width="223" FontWeight="Bold" FontSize="20"/>
+
     </Grid>
 </Window>
