@@ -14,5 +14,7 @@
         <Image HorizontalAlignment="Left" Height="52" Margin="355,179,0,0" VerticalAlignment="Top" Width="73" Source="1200px-RedDot_Burger.jpg"/>
         <Image HorizontalAlignment="Left" Height="52" Margin="474,238,0,0" VerticalAlignment="Top" Width="81" Source="Mama_instant_noodle_block.jpg"/>
         <Image HorizontalAlignment="Left" Height="106" Margin="307,256,0,0" VerticalAlignment="Top" Width="162" Source="question.jpeg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="349,362,0,0" VerticalAlignment="Top" Width="79" Stretch="Fill" Source="upward-arrow-1767596-1502500.jpeg"/>
+        <Label Content="Click when you are ready to answer the questions" HorizontalAlignment="Left" Height="47" Margin="164,406,0,0" VerticalAlignment="Top" Width="493" FontWeight="Bold" FontSize="20" Foreground="Red"/>
     </Grid>
 </Window>

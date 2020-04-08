@@ -150,5 +150,8 @@
   <ItemGroup>
     <Resource Include="question.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="upward-arrow-1767596-1502500.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
