@@ -6,17 +6,21 @@
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
         Title="Instruction" Height="492.857" Width="850.42">
-    <Grid>
+    <Grid >
         <Label Content="Find your next recipe!!" HorizontalAlignment="Left" Height="47" Margin="223,62,0,0" VerticalAlignment="Top" Width="400" FontFamily="Cooper Black" FontSize="30" Foreground="#FF4398E2"/>
         <Label Content="Answer questions to find most suitable recipe!" HorizontalAlignment="Left" Margin="132,114,0,0" VerticalAlignment="Top" Width="654" Foreground="#FF4398E2" FontFamily="Cooper Black" FontSize="24"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="529,-140,0,0" VerticalAlignment="Top" Width="100"/>
         <Image HorizontalAlignment="Left" Height="52" Margin="223,238,0,0" VerticalAlignment="Top" Width="53" Source="food.jpg"/>
         <Image HorizontalAlignment="Left" Height="52" Margin="355,179,0,0" VerticalAlignment="Top" Width="73" Source="1200px-RedDot_Burger.jpg"/>
         <Image HorizontalAlignment="Left" Height="52" Margin="474,238,0,0" VerticalAlignment="Top" Width="81" Source="Mama_instant_noodle_block.jpg"/>
-        <Image HorizontalAlignment="Left" Height="106" Margin="307,256,0,0" VerticalAlignment="Top" Width="162" Source="question.jpeg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="62" Margin="349,362,0,0" VerticalAlignment="Top" Width="79" Stretch="Fill" Source="upward-arrow-1767596-1502500.jpeg"/>
         <Label Content="Click when you are ready to answer the questions" HorizontalAlignment="Left" Height="47" Margin="164,406,0,0" VerticalAlignment="Top" Width="493" FontWeight="Bold" FontSize="20" Foreground="Red"/>
         <Image HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" VerticalAlignment="Top" Width="73" Source="house.png" Stretch="Fill"/>
         <Label Content="Go back to main page" HorizontalAlignment="Left" Height="44" Margin="67,18,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold" FontSize="20"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="106" Margin="318,260,0,0" VerticalAlignment="Top" Width="110"/>
+        <StackPanel Orientation="Horizontal" Margin="318,260,396,97.333">
+            <Image Source=" question.jpeg" Stretch = "Fill" Width="124" />
+
+        </StackPanel>
     </Grid>
 </Window>
