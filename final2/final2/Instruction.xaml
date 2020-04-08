@@ -18,9 +18,9 @@
         <Image HorizontalAlignment="Left" Height="44" Margin="10,10,0,0" VerticalAlignment="Top" Width="73" Source="house.png" Stretch="Fill"/>
         <Label Content="Go back to main page" HorizontalAlignment="Left" Height="44" Margin="67,18,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold" FontSize="20"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="106" Margin="318,260,0,0" VerticalAlignment="Top" Width="110"/>
-        <StackPanel Orientation="Horizontal" Margin="318,260,396,97.333">
-            <Image Source=" question.jpeg" Stretch = "Fill" Width="124" />
+            <StackPanel Orientation="Horizontal" Margin="318,260,396,97.333">
+                <Image Source=" question.jpeg" Stretch = "Fill" Width="124" />
 
-        </StackPanel>
+            </StackPanel>
     </Grid>
 </Window>
