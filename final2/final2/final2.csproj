@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="guidequestioninstruction.xaml.cs">
+      <DependentUpon>guidequestioninstruction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Ingredients.xaml.cs">
       <DependentUpon>Ingredients.xaml</DependentUpon>
     </Compile>
@@ -69,6 +72,10 @@
     <Compile Include="Categories.xaml.cs">
       <DependentUpon>Categories.xaml</DependentUpon>
     </Compile>
+    <Page Include="guidequestioninstruction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Ingredients.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -140,6 +147,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="crown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="qmark2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="home.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
