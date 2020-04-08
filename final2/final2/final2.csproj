@@ -64,6 +64,9 @@
     <Compile Include="SampleQScreen1.xaml.cs">
       <DependentUpon>SampleQScreen1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Savedrecipe.xaml.cs">
+      <DependentUpon>Savedrecipe.xaml</DependentUpon>
+    </Compile>
     <Page Include="Categories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +95,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="SampleQScreen1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Savedrecipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,6 +179,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="shrimp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1200px-RedDot_Burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="food.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
