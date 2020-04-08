@@ -31,5 +31,11 @@ namespace final2
             Categories category = new Categories();
             category.ShowDialog();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Savedrecipe saved = new Savedrecipe();
+            saved.ShowDialog();
+        }
     }
 }
