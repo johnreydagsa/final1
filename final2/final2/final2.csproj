@@ -114,5 +114,32 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="explore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="healthy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="salad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pastry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mains.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="soup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dessert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="click.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crown.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
