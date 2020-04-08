@@ -141,5 +141,17 @@
   <ItemGroup>
     <Resource Include="crown.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1200px-RedDot_Burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Mama_instant_noodle_block.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="question.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="upward-arrow-1767596-1502500.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
