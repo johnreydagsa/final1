@@ -41,6 +41,14 @@ namespace final2
             MainWindow main = new MainWindow();
             main.ShowDialog();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+           
+                Window1 ingredients = new Window1();
+                ingredients.ShowDialog();
+            
+        }
     }
 
 

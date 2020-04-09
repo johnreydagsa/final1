@@ -12,7 +12,7 @@
             <ColumnDefinition Width="341*"/>
         </Grid.ColumnDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="652" HorizontalAlignment="Left" Margin="58,128,0,38" Grid.ColumnSpan="2">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,38" Grid.ColumnSpan="2">
             <StackPanel Name="stackPanel1" Width="635.2"  >
                 <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
@@ -22,7 +22,8 @@
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
                             <Button Height="18"  Background="White" Content="Saved recipe 1" BorderBrush="White" FontWeight="Bold"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Saved recipe 1" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
+                            <Button Content="Saved recipe 1" Width="332" Height="97" Click="Button_Click_2"/>
 
                         </Button>
 
