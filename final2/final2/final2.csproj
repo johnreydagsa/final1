@@ -186,5 +186,8 @@
   <ItemGroup>
     <Resource Include="food.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cookie.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
