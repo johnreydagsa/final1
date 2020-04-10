@@ -32,10 +32,13 @@ namespace final2
             main.ShowDialog();
         }
 
-        private void Button_Click2(object sender, RoutedEventArgs e)
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            main.ShowDialog();
+            Window1 ingre = new Window1();
+            ingre.ShowDialog();
+            this.Close();
         }
+
     }
 }
