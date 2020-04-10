@@ -6,24 +6,24 @@
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
         Title="Savedrecipe" Height="450" Width="800">
-    <Grid Margin="0,0,-6.667,49.667">
+    <Grid Margin="0,0,-6.667,-67.333">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="459*"/>
             <ColumnDefinition Width="341*"/>
         </Grid.ColumnDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,38" Grid.ColumnSpan="2">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,90" Grid.ColumnSpan="2">
             <StackPanel Name="stackPanel1" Width="635.2"  >
                 <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="89" Source="1200px-RedDot_Burger.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="89" Source="cookie.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Saved recipe 1" BorderBrush="White" FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Chocolate chip coockie" BorderBrush="White" FontWeight="Bold"/>
                         </DockPanel>
                         <Button Height="125" DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
-                            <Button Content="Saved recipe 1" Width="332" Height="97" Click="Button_Click_2"/>
+                            <Button Content="Crispy chewy cookies filled with chocolate" Width="450" Height="112" Click="Button_Click_2" FontSize="20"/>
 
                         </Button>
 
@@ -36,9 +36,9 @@
                         <DockPanel Height="125" Width="150" >
                             <Image Height ="89" Source="dairy.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Saved recipe 2" BorderBrush="White"  FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Delicious Daries" BorderBrush="White"  FontWeight="Bold"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Saved recipe 2" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Dairies. Rich in protein" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="24">
 
                         </Button>
 
@@ -51,9 +51,9 @@
                         <DockPanel Height="125" Width="150" >
                             <Image Height ="89" Source="gluten.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Saved recipe 3" BorderBrush="White" FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Baked bread" BorderBrush="White" FontWeight="Bold"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Saved recipe 3" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Bread. Usually for breakfast." BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="24">
 
                         </Button>
 
@@ -66,7 +66,7 @@
             </StackPanel>
         </ScrollViewer>
         <TextBox Margin="279,51,210,445" Text="Saved Recipes"  FontFamily="Cooper Black" FontSize="40" Opacity="0.965" Foreground="#FF4398E2" BorderBrush="{x:Null}" Grid.ColumnSpan="2"></TextBox>
-        <Button Content="Back" Margin="58,10,319.934,329.333" Click="Button_Click_1"/>
+        <Button Content="Back" Margin="58,10,319.667,409" Click="Button_Click_1"/>
         <Label Content="Find your saved recipes!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,28,0,0" FontFamily="Cooper Black" FontSize="36" Grid.ColumnSpan="2" Width="469"/>
 
     </Grid>
