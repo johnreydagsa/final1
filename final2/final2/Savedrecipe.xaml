@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
         Title="Savedrecipe" Height="450" Width="800">
-    <Grid Margin="0,0,-6.667,-489.333">
+    <Grid Margin="0,0,-6.667,-508.333">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="459*"/>
             <ColumnDefinition Width="341*"/>
         </Grid.ColumnDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,530" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,528" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
             <StackPanel Name="stackPanel1" Width="635.2"  >
                 <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
@@ -36,9 +36,9 @@
                         <DockPanel Height="125" Width="150" >
                             <Image Height ="89" Source="dairy.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Milk cheese" BorderBrush="White"  FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Creamy Mac and Cheese" BorderBrush="White"  FontWeight="Bold" Click="Button_Click_4"/>
                         </DockPanel>
-                        <Button DockPanel.Dock="Right" Background="White" Content="a dairy product derived from milk that is&#xD;&#xA; produced in a wide range of flavors, textures, and forms&#xD;&#xA; by coagulation of the milk protein casein. It comprises proteins and fat from milk, &#xD;&#xA;usually the milk of cows, buffalo, goats, or sheep. &#xD;&#xA;" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="20" Click="Button_Click_1" Margin="0,0,0,10.333" Width="475"/>
+                        <Button DockPanel.Dock="Right" Background="White" Content="a dairy product derived from milk that is produced&#xD;&#xA; in a wide range of flavors, textures, and forms&#xD;&#xA; by coagulation of the milk protein casein. It &#xD;&#xA;comprises proteins and fat from milk, usually the&#xD;&#xA; milk of cows, buffalo, goats, or sheep. &#xD;&#xA;" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_1" Margin="0,0,0,10.333" Width="475"/>
 
                     </DockPanel>
 
@@ -49,9 +49,9 @@
                         <DockPanel Height="125" Width="150" >
                             <Image Height ="89" Source="gluten.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Baked bread" BorderBrush="White" FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Chicken Salad Croissant" BorderBrush="White" FontWeight="Bold"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Bread is a staple food prepared from a dough of &#xD;&#xA;flour and water, usually by baking. &#xD;&#xA;Throughout recorded history it has been a&#xD;&#xA; prominent food in large parts of the world" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="20" Click="Button_Click_3">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Bread is a staple food prepared from a dough of &#xD;&#xA;flour and water, usually by baking. Throughout &#xD;&#xA;recorded history it has been a prominent food&#xD;&#xA;in large parts of the world" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_3">
 
                         </Button>
 
