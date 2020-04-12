@@ -11,28 +11,6 @@
         <Button Content="Previous" HorizontalAlignment="Left" Height="44" Margin="203,304,0,0" VerticalAlignment="Top" Width="132" Padding="32,1,1,1" FontFamily="Sitka Heading" FontSize="20"/>
         <Label Content="Do you have any allergies?" HorizontalAlignment="Left" Height="62" Margin="194,79,0,0" VerticalAlignment="Top" Width="383" FontFamily="Cooper" FontSize="28" Foreground="#FF4398E2"/>
 
-        <Polygon Points="0,0 8,5 0,10" Height="10" Stroke="Black" Fill="Black" Margin="551,320,230,89" RenderTransformOrigin="0.5,0.5" >
-            <Polygon.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="3" ScaleY="3"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Polygon.RenderTransform>
-        </Polygon>
-
-        <Polygon Points="8,0 0,5 8,10" Width="10" Stroke="Black" Fill="Black" Margin="220,324,562,83" RenderTransformOrigin="0.5,0.5" >
-            <Polygon.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="3" ScaleY="3"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Polygon.RenderTransform>
-        </Polygon>
-
 
         <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go back to the main page  " VerticalAlignment="Top" Width="225" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
         <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54">
@@ -64,5 +42,25 @@
         <Label Content=" Gluten" HorizontalAlignment="Left" Height="29" Margin="274,237,0,0" VerticalAlignment="Top" Width="88" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="20" FontWeight="Bold"/>
         <Label Content="Nuts" HorizontalAlignment="Left" Height="29" Margin="416,238,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="20" FontWeight="Bold"/>
         <Label Content="Shellfish" HorizontalAlignment="Left" Height="29" Margin="528,238,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="20" FontWeight="Bold"/>
+        <Polygon Points="8,0 0,5 8,10" Width="10" Stroke="Black" Fill="Black" Margin="220,324,562,83" RenderTransformOrigin="0.5,0.5" >
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0,0 8,5 0,10" Height="10" Stroke="Black" Fill="Black" Margin="551,320,230,89" RenderTransformOrigin="0.5,0.5" >
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="3" ScaleY="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
     </Grid>
 </Window>
