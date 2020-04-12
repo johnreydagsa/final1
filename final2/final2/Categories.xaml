@@ -14,26 +14,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="89" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
-                            <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading"/>
-                            <Button Height="18"  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading"/>
+                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
+                                <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
+                            </Button>
+                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
                         <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
-                            
-                        </Button>
-
-                    </DockPanel>
-
-                </Button>
-                <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White">
-                    <DockPanel Height="125" Width="635.2" LastChildFill="True">
-                        <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
-                        <DockPanel Height="125" Width="150" >
-                            <Image Height ="89" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
-                            <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading"/>
-                            <Button Height="18"  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading"/>
-                        </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14">
 
                         </Button>
 
@@ -44,11 +31,30 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="89" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
-                            <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading"/>
-                            <Button Height="18"  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading"/>
+                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
+                                <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
+                            </Button>
+                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
+
+                        </Button>
+
+                    </DockPanel>
+
+                </Button>
+                <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White">
+                    <DockPanel Height="125" Width="635.2" LastChildFill="True">
+                        <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
+                        <DockPanel Height="125" Width="150" >
+                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
+                                <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
+                            </Button>
+                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                        </DockPanel>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
 
                         </Button>
 
@@ -58,10 +64,18 @@
                 
 
 
+
             </StackPanel>
         </ScrollViewer>
-        <Button Content="Back" Margin="58,10,654.6,379"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="58,19,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="58,20,0,0" VerticalAlignment="Top" Width="54" >
+            <Button.Background>
+                <ImageBrush ImageSource="backarrow.png"/>
+            </Button.Background>
+        </Button>
+
         <TextBox Margin="279,51,319.6,315" Text="PASTRY"  FontFamily="Cooper Black" FontSize="40" Opacity="0.965" Foreground="#FF4398E2" BorderBrush="{x:Null}" SelectionBrush="#FF4398E2"></TextBox>
+
     </Grid>
 
 
