@@ -31,13 +31,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="80" Source="bananamuffins.jfif" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
                                 <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
                             </Button>
-                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                            <Button  Background="White" Content="Banana Muffins" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="These banana muffins are soft, buttery, and spiced with cinnamon." BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
 
                         </Button>
 
@@ -48,13 +48,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="80" Source="applep" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
                                 <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
                             </Button>
-                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                            <Button  Background="White" Content="Apple Pie" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy muffins filled with apples" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
 
                         </Button>
 

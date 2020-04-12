@@ -208,5 +208,9 @@
   <ItemGroup>
     <Resource Include="star rate.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="applepie.jpg" />
+    <Content Include="bananamuffins.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
