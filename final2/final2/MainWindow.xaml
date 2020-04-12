@@ -7,31 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="-262,-73,-481.667,-19.333">
-        <Label Content="Welcome to Cooking!" HorizontalAlignment="Left" Height="53" Margin="488,109,0,0" VerticalAlignment="Top" Width="332" FontFamily="Cooper Black" FontSize="30" Foreground="#FF4398E2"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="119" Margin="522,167,0,0" Stroke="Black" VerticalAlignment="Top" Width="260"/>
-        <Button Content="Bookmarks" HorizontalAlignment="Left" Height="46" Margin="877,82,0,0" VerticalAlignment="Top" Width="163" FontFamily="Cooper Black" Foreground="#FF4398E2" Click="Button_Click_1">
+        <Label Content="Welcome to Cooking!" HorizontalAlignment="Left" Height="53" Margin="489,82,0,0" VerticalAlignment="Top" Width="332" FontFamily="Cooper Black" FontSize="30" Foreground="#FF4398E2"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="119" Margin="526,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="260"/>
+        <Button Content="Bookmarks" HorizontalAlignment="Left" Height="46" Margin="879,82,0,0" VerticalAlignment="Top" Width="163" FontFamily="Cooper Black" Foreground="#FF4398E2" Click="Button_Click_1" Background="#FFF4F4F5" Padding="1,1,60,1">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="539,300,0,0" TextWrapping="Wrap" Text="Or search for a specific recipe here!" VerticalAlignment="Top" Width="228" TextAlignment="Center" FontFamily="Sitka Heading" FontSize="14" Foreground="#FF4398E2">
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="542,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center" FontFamily="Sitka Heading" FontSize="14" Foreground="#FF4398E2">
             <TextBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </TextBox.Resources>
         </TextBox>
-        <Label Content="Browse By Category" HorizontalAlignment="Left" Height="35" Margin="539,339,0,0" VerticalAlignment="Top" Width="215" FontFamily="Cooper Black" FontSize="20" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="32" Margin="594,176,0,0" TextWrapping="Wrap" Text="Find your new Recipe!" VerticalAlignment="Top" Width="123" TextAlignment="Center" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="418,442,0,0" TextWrapping="Wrap" Text="Healthy" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="497,442,0,0" TextWrapping="Wrap" Text="Salads" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="576,442,0,0" TextWrapping="Wrap" Text="Pastries" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="656,442,0,0" TextWrapping="Wrap" Text="Mains" VerticalAlignment="Top" Width="73" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="734,442,0,0" TextWrapping="Wrap" Text="Soups" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <TextBlock HorizontalAlignment="Left" Height="19" Margin="813,442,0,0" TextWrapping="Wrap" Text="Desserts" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <Button Content="" HorizontalAlignment="Left" Height="57" Margin="610,208,0,0" VerticalAlignment="Top" Width="80">
+        <Label Content="Browse By Category" HorizontalAlignment="Left" Height="35" Margin="542,354,0,0" VerticalAlignment="Top" Width="215" FontFamily="Cooper Black" FontSize="20" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="596,152,0,0" TextWrapping="Wrap" Text="Find your new Recipe!" VerticalAlignment="Top" Width="123" TextAlignment="Center" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="421,457,0,0" TextWrapping="Wrap" Text="Soups" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="500,457,0,0" TextWrapping="Wrap" Text="Salads" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="579,457,0,0" TextWrapping="Wrap" Text="Pastries" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="659,457,0,0" TextWrapping="Wrap" Text="Mains" VerticalAlignment="Top" Width="73" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="737,457,0,0" TextWrapping="Wrap" Text="Beverages" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="816,457,0,0" TextWrapping="Wrap" Text="Desserts" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
+        <Button Content="" HorizontalAlignment="Left" Height="57" Margin="615,176,0,0" VerticalAlignment="Top" Width="80">
             <Button.Background>
                 <ImageBrush ImageSource="explore.jpg"/>
             </Button.Background>
@@ -41,53 +41,47 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="418,374,0,0" VerticalAlignment="Top" Width="74">
-            <Button.Background>
-                <ImageBrush ImageSource="healthy.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="497,374,0,0" VerticalAlignment="Top" Width="74">
-            <Button.Background>
-                <ImageBrush ImageSource="salad.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="576,374,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="pastry.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="655,374,0,0" VerticalAlignment="Top" Width="74">
-            <Button.Background>
-                <ImageBrush ImageSource="mains.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="734,374,0,0" VerticalAlignment="Top" Width="74">
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="421,389,0,0" VerticalAlignment="Top" Width="74">
             <Button.Background>
                 <ImageBrush ImageSource="soup.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="813,374,0,0" VerticalAlignment="Top" Width="74">
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="500,389,0,0" VerticalAlignment="Top" Width="74">
+            <Button.Background>
+                <ImageBrush ImageSource="salad.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="579,389,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pastrynew.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="658,389,0,0" VerticalAlignment="Top" Width="74">
+            <Button.Background>
+                <ImageBrush ImageSource="mains.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="737,389,0,0" VerticalAlignment="Top" Width="74">
+            <Button.Background>
+                <ImageBrush ImageSource="beverages.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="63" Margin="816,389,0,0" VerticalAlignment="Top" Width="74">
             <Button.Background>
                 <ImageBrush ImageSource="dessert.jpg"/>
             </Button.Background>
         </Button>
-        <Image HorizontalAlignment="Left" Height="31" Margin="679,254,0,0" VerticalAlignment="Top" Width="38" RenderTransformOrigin="0.5,0.5">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="click.jpg"/>
-            </Image.OpacityMask>
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-28.217"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
         <Image HorizontalAlignment="Left" Height="24" Margin="725,94,0,0" VerticalAlignment="Top" Width="29">
             <Image.OpacityMask>
                 <ImageBrush ImageSource="crown.jpg"/>
             </Image.OpacityMask>
         </Image>
+        <Label Content="Or search for a specific recipe below!" HorizontalAlignment="Left" Height="30" Margin="542,262,0,0" VerticalAlignment="Top" Width="228" FontFamily="Sitka Heading" Foreground="#FF4398E2" FontSize="14"/>
+        <Button Content="Search" HorizontalAlignment="Left" Height="18" Margin="596,322,0,0" VerticalAlignment="Top" Width="123" FontFamily="Cooper" Background="#FFF4F4F5"/>
+        <Button Content="" HorizontalAlignment="Left" Height="46" Margin="995,82,0,0" VerticalAlignment="Top" Width="47">
+            <Button.Background>
+                <ImageBrush ImageSource="bookmark.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

@@ -209,8 +209,13 @@
     <Resource Include="star rate.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="applepie.jpg" />
-    <Content Include="bananamuffins.jfif" />
+    <Resource Include="beverages.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pastrynew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bookmark.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
