@@ -12,7 +12,7 @@
             <ColumnDefinition Width="341*"/>
         </Grid.ColumnDefinitions>
 
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,114" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,84" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
             <StackPanel Name="stackPanel1" Width="635.2"  >
                 <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
@@ -22,8 +22,8 @@
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
                             <Button Height="18"  Background="White" Content="Chocolate chip coockie" BorderBrush="White" FontWeight="Bold"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48">
-                            <Button Content="Crispy chewy cookies filled with chocolate" Width="450" Height="112" Click="Button_Click_2" FontSize="20"/>
+                        <Button DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48" Margin="0,0,0,35.333">
+                            <Button Content="Crispy chewy cookies filled with chocolate" Width="450" Height="94" Click="Button_Click_2" FontSize="20"/>
 
                         </Button>
 
@@ -36,7 +36,7 @@
                         <DockPanel Height="125" Width="150" >
                             <Image Height ="89" Source="dairy.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-                            <Button Height="18"  Background="White" Content="Delicious Daries" BorderBrush="White"  FontWeight="Bold"/>
+                            <Button Height="18"  Background="White" Content="Milk cheese" BorderBrush="White"  FontWeight="Bold"/>
                         </DockPanel>
                         <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Dairies. Rich in protein" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="24">
 
