@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/final2/final2/RecipeInstruction.xaml
+/final2/final2/RecipeInstruction.xaml.cs
