@@ -61,6 +61,9 @@
     <Compile Include="Ingredients.xaml.cs">
       <DependentUpon>Ingredients.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RecipeInstruction.xaml.cs">
+      <DependentUpon>RecipeInstruction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SampleQScreen1.xaml.cs">
       <DependentUpon>SampleQScreen1.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RecipeInstruction.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
