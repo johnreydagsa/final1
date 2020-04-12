@@ -66,8 +66,12 @@
             </StackPanel>
         </ScrollViewer>
         <TextBox Margin="279,51,210,445" Text="Saved Recipes"  FontFamily="Cooper Black" FontSize="40" Opacity="0.965" Foreground="#FF4398E2" BorderBrush="{x:Null}" Grid.ColumnSpan="2"></TextBox>
-        <Button Content="Back" Margin="58,10,319.667,409" Click="Button_Click_1"/>
         <Label Content="Find your saved recipes!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,28,0,0" FontFamily="Cooper Black" FontSize="36" Grid.ColumnSpan="2" Width="469" Foreground="#FF4398E2"/>
-
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center" Grid.ColumnSpan="4"/>
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Grid.ColumnSpan="2" Click="Button_Click_goback">
+            <Button.Background>
+                <ImageBrush ImageSource="backarrow.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
