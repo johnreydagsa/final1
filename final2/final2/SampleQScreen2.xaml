@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="SampleQScreen2" Height="450" Width="800">
+        Title="SampleQScreen2" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="How would you rate your cooking skills?&#xD;&#xA;                           (Choose one)" HorizontalAlignment="Left" Height="82" Margin="124,59,0,0" VerticalAlignment="Top" Width="515" FontFamily="Cooper" FontSize="24" Foreground="#FF4398E2"/>
 

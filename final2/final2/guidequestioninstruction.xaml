@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="guidequestioninstruction" Height="450" Width="800">
+        Title="guidequestioninstruction" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Polygon Points="20,0 40,40, 0,40" Height="50" Width="300" Stroke="Black" Fill="#FFFF0011" Margin="370,280,122,89" />
         <Label Content="Find your next Recipe!" HorizontalAlignment="Left" Height="50" Margin="240,10,0,0" VerticalAlignment="Top" Width="284" FontFamily="Cooper" FontSize="24" OpacityMask="Black" Foreground="#FF4398E2"/>

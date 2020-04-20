@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        
+
+        WindowStartupLocation="CenterScreen">
+
     <Grid Margin="-262,-73,-481.667,-19.333">
         <Label Content="Welcome to Cooking!" HorizontalAlignment="Left" Height="53" Margin="489,82,0,0" VerticalAlignment="Top" Width="332" FontFamily="Cooper Black" FontSize="30" Foreground="#FF4398E2"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="119" Margin="526,138,0,0" Stroke="Black" VerticalAlignment="Top" Width="260"/>

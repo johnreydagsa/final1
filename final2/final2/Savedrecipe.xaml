@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="Savedrecipe" Height="450" Width="800">
+        Title="Savedrecipe" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,-6.667,-508.333">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="459*"/>

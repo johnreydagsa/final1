@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="SampleQScreen1" Height="450" Width="800">
+        Title="SampleQScreen1" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Do you have any allergies?" HorizontalAlignment="Left" Height="62" Margin="194,79,0,0" VerticalAlignment="Top" Width="383" FontFamily="Cooper" FontSize="28" Foreground="#FF4398E2"/>
 
