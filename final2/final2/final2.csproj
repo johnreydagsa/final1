@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RecommendedRecipes.xaml.cs">
+      <DependentUpon>RecommendedRecipes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="guidequestioninstruction.xaml.cs">
       <DependentUpon>guidequestioninstruction.xaml</DependentUpon>
     </Compile>
@@ -73,6 +76,10 @@
     <Compile Include="Savedrecipe.xaml.cs">
       <DependentUpon>Savedrecipe.xaml</DependentUpon>
     </Compile>
+    <Page Include="RecommendedRecipes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Categories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -234,6 +241,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bananamuffins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="applepie.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
