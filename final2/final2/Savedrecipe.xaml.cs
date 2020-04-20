@@ -31,6 +31,7 @@ namespace final2
         {
             MainWindow main = new MainWindow();
             main.ShowDialog();
+            this.Close();
         }
 
         private void Button_Click2(object sender, RoutedEventArgs e)
@@ -47,13 +48,14 @@ namespace final2
            
                 Window1 ingredients = new Window1();
                 ingredients.ShowDialog();
-            
+                this.Close();
         }
 
         private void Button_Click_goback(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
             main.ShowDialog();
+            this.Close();
 
         }
 
