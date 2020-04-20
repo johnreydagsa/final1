@@ -20,7 +20,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="25" Margin="542,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center" FontFamily="Sitka Heading" FontSize="14" Foreground="#FF4398E2">
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="542,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" TextAlignment="Center" FontFamily="Sitka Heading" FontSize="14" Foreground="#FF4398E2" Name ="recipename">
             <TextBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -81,7 +81,7 @@
             </Image.OpacityMask>
         </Image>
         <Label Content="Or search for a specific recipe below!" HorizontalAlignment="Left" Height="30" Margin="542,262,0,0" VerticalAlignment="Top" Width="228" FontFamily="Sitka Heading" Foreground="#FF4398E2" FontSize="14"/>
-        <Button Content="Search" HorizontalAlignment="Left" Height="18" Margin="596,322,0,0" VerticalAlignment="Top" Width="123" FontFamily="Cooper" Background="#FFF4F4F5"/>
+        <Button Content="Search" HorizontalAlignment="Left" Height="18" Margin="596,322,0,0" VerticalAlignment="Top" Width="123" FontFamily="Cooper" Background="#FFF4F4F5" Click="Button_Click_2"/>
         <Button Content="" HorizontalAlignment="Left" Height="46" Margin="995,82,0,0" VerticalAlignment="Top" Width="47">
             <Button.Background>
                 <ImageBrush ImageSource="bookmark.png"/>

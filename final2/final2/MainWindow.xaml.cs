@@ -37,5 +37,16 @@ namespace final2
             Savedrecipe saved = new Savedrecipe();
             saved.ShowDialog();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            string name = recipename.Text;
+            if (name.ToUpper().Equals("CHOCOLATE CHIP"))
+            {
+                RecipeInstruction recipe = new RecipeInstruction();
+                recipe.ShowDialog();
+                this.Close();
+            }
+        }
     }
 }
