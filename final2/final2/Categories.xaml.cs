@@ -35,7 +35,7 @@ namespace final2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Window1 ingre = new Window1();
+            Ingredients ingre = new Ingredients();
             ingre.ShowDialog();
             this.Close();
         }

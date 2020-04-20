@@ -59,7 +59,7 @@ namespace final2
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
            
-                Window1 ingredients = new Window1();
+                Ingredients ingredients = new Ingredients();
                 ingredients.ShowDialog();
             
         }

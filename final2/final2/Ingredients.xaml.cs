@@ -5,16 +5,17 @@ namespace final2
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Ingredients : Window
     {
-        public Window1()
+        public Ingredients()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Categories categories = new Categories();
+            categories.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
