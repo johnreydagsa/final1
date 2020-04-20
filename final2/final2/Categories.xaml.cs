@@ -26,13 +26,6 @@ namespace final2
             
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow main = new MainWindow();
-            main.ShowDialog();
-        }
-
-
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Window1 ingre = new Window1();
@@ -40,6 +33,11 @@ namespace final2
             this.Close();
         }
 
-
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.ShowDialog();
+            this.Close();
+        }
     }
 }
