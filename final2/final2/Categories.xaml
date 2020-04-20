@@ -38,9 +38,7 @@
                             </Button>
                             <Button  Background="White" Content="Banana Muffins" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Meet the banana muffins of my dreams. They're fluffy, whole grain,&#xD;&#xA;naturally sweetened, totally delicious banana muffins.&#xD;&#xA;They're also about as healthy as muffins can be. The recipe&#xD;&#xA;calls for basic ingredients and you can mix them all together&#xD;&#xA;in one bowl. Too much to be true? Nope." BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
-
-                        </Button>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Meet the banana muffins of my dreams. They're fluffy, whole grain,&#xD;&#xA;naturally sweetened, totally delicious banana muffins.&#xD;&#xA;They're also about as healthy as muffins can be. The recipe&#xD;&#xA;calls for basic ingredients and you can mix them all together&#xD;&#xA;in one bowl. Too much to be true? Nope." BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
 
                     </DockPanel>
 
@@ -55,9 +53,7 @@
                             </Button>
                             <Button  Background="White" Content="Apple Pie" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="This is absolutely the best homemade apple pie you'll ever make!&#xD;&#xA; It has a flaky, buttery crust and a tender, lightly-spiced apple pie filling.&#xD;&#xA; Use a combination of apples for best flavor, and bake until the top is golden&#xD;&#xA; and the filling is bubbly!" BorderBrush="White" Foreground="Black" Click="Button_Click_1" FontFamily="Sitka Heading" FontSize="14">
-
-                        </Button>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="This is absolutely the best homemade apple pie you'll ever make!&#xD;&#xA; It has a flaky, buttery crust and a tender, lightly-spiced apple pie filling.&#xD;&#xA; Use a combination of apples for best flavor, and bake until the top is golden&#xD;&#xA; and the filling is bubbly!" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
 
                     </DockPanel>
 
@@ -69,7 +65,7 @@
             </StackPanel>
         </ScrollViewer>
         <TextBox HorizontalAlignment="Left" Height="50" Margin="58,19,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
-        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="58,20,0,0" VerticalAlignment="Top" Width="54" >
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="58,20,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click_2" >
             <Button.Background>
                 <ImageBrush ImageSource="backarrow.png"/>
             </Button.Background>
