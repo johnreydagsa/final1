@@ -1,13 +1,13 @@
-﻿<Window x:Class="final2.SampleQScreen1"
+﻿<Window x:Class="final2.SampleQScreen2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="SampleQScreen1" Height="450" Width="800">
+        Title="SampleQScreen2" Height="450" Width="800">
     <Grid>
-        <Label Content="Do you have any allergies?" HorizontalAlignment="Left" Height="62" Margin="194,79,0,0" VerticalAlignment="Top" Width="383" FontFamily="Cooper" FontSize="28" Foreground="#FF4398E2"/>
+        <Label Content="How would you rate your cooking skills?&#xD;&#xA;                           (Choose one)" HorizontalAlignment="Left" Height="82" Margin="124,59,0,0" VerticalAlignment="Top" Width="515" FontFamily="Cooper" FontSize="24" Foreground="#FF4398E2"/>
 
 
         <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go back to the main page  " VerticalAlignment="Top" Width="225" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
@@ -16,35 +16,35 @@
                 <ImageBrush ImageSource="home.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="60" Margin="146,172,0,0" VerticalAlignment="Top" Width="89">
+        <Button Content="" HorizontalAlignment="Left" Height="76" Margin="146,156,0,0" VerticalAlignment="Top" Width="111">
             <Button.Background>
-                <ImageBrush ImageSource="dairy.jpg"/>
+                <ImageBrush ImageSource="beginner.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="60" Margin="273,172,0,0" VerticalAlignment="Top" Width="89">
+        <Button Content="" HorizontalAlignment="Left" Height="76" Margin="273,156,0,0" VerticalAlignment="Top" Width="113">
             <Button.Background>
-                <ImageBrush ImageSource="gluten.jpg"/>
+                <ImageBrush ImageSource="intermediate.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="60" Margin="400,172,0,0" VerticalAlignment="Top" Width="90">
+        <Button Content="" HorizontalAlignment="Left" Height="76" Margin="400,156,0,0" VerticalAlignment="Top" Width="110">
             <Button.Background>
-                <ImageBrush ImageSource="nuts.jpg"/>
+                <ImageBrush ImageSource="experienced.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="60" Margin="528,172,0,0" VerticalAlignment="Top" Width="90">
+        <Button Content="" HorizontalAlignment="Left" Height="76" Margin="528,156,0,0" VerticalAlignment="Top" Width="111">
             <Button.Background>
-                <ImageBrush ImageSource="shrimp.jpg"/>
+                <ImageBrush ImageSource="pro.jpg"/>
             </Button.Background>
         </Button>
-        <CheckBox Content="Dairy" HorizontalAlignment="Left" Height="26" Margin="145,247,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="16" FontWeight="Bold" Padding="8,-1,0,0">
+        <CheckBox Content="Novice" HorizontalAlignment="Left" Height="26" Margin="145,247,0,0" VerticalAlignment="Top" Width="112" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="16" FontWeight="Bold" Padding="18,-1,0,0">
             <CheckBox.Background>
                 <ImageBrush/>
             </CheckBox.Background>
         </CheckBox>
-        <CheckBox Content="Gluten" HorizontalAlignment="Left" Height="26" Margin="272,247,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Banner" FontSize="16" FontWeight="Bold" Padding="8,-1,0,0"/>
-        <CheckBox Content="Nuts" HorizontalAlignment="Left" Height="26" Margin="400,247,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="16" FontWeight="Bold" Padding="12,-1,0,0"/>
+        <CheckBox Content="Intermediate" HorizontalAlignment="Left" Height="26" Margin="272,247,0,0" VerticalAlignment="Top" Width="114" Foreground="#FF4398E2" FontFamily="Sitka Banner" FontSize="16" FontWeight="Bold" Padding="8,-1,0,0"/>
+        <CheckBox Content="Experienced" HorizontalAlignment="Left" Height="26" Margin="400,247,0,0" VerticalAlignment="Top" Width="110" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="15" FontWeight="Bold" Padding="6,-1,0,0"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="474,343,0,0" VerticalAlignment="Top" Width="92" Source="right arrow.jpg"/>
-        <CheckBox Content="Shellfish" HorizontalAlignment="Left" Height="26" Margin="528,247,0,0" VerticalAlignment="Top" Width="89" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="16" FontWeight="Bold"/>
+        <CheckBox Content="Professional" HorizontalAlignment="Left" Height="26" Margin="528,247,0,0" VerticalAlignment="Top" Width="111" Foreground="#FF4398E2" FontFamily="Sitka Heading" FontSize="16" FontWeight="Bold"/>
         <Button Content="Next" HorizontalAlignment="Left" Height="44" Margin="454,308,0,0" VerticalAlignment="Top" Width="124" Padding="1" FontFamily="Sitka Heading" FontSize="20"/>
         <Image HorizontalAlignment="Left" Height="76" Margin="239,344,0,-1" VerticalAlignment="Top" Width="92" Source="right arrow.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>

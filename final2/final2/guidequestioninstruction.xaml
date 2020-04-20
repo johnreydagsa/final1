@@ -14,6 +14,11 @@
             <Button.Background>
                 <ImageBrush ImageSource="qmark2.jpg"/>
             </Button.Background>
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
         </Button>
         <Ellipse HorizontalAlignment="Left" Height="85" Margin="268,93,0,0" Stroke="Black" VerticalAlignment="Top" Width="85">
             <Ellipse.Fill>
@@ -22,7 +27,7 @@
         </Ellipse>
         <Ellipse HorizontalAlignment="Left" Height="85" Margin="428,93,0,0" Stroke="Black" VerticalAlignment="Top" Width="84">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="pastry.jpg"/>
+                <ImageBrush ImageSource="pastrynew.jpg"/>
             </Ellipse.Fill>
         </Ellipse>
         <Ellipse HorizontalAlignment="Left" Height="85" Margin="240,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="85">

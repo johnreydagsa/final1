@@ -55,9 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="RecipeRecommendations.xaml.cs">
-      <DependentUpon>RecipeRecommendations.xaml</DependentUpon>
-    </Compile>
     <Compile Include="guidequestioninstruction.xaml.cs">
       <DependentUpon>guidequestioninstruction.xaml</DependentUpon>
     </Compile>
@@ -70,13 +67,12 @@
     <Compile Include="SampleQScreen1.xaml.cs">
       <DependentUpon>SampleQScreen1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SampleQScreen2.xaml.cs">
+      <DependentUpon>SampleQScreen2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Savedrecipe.xaml.cs">
       <DependentUpon>Savedrecipe.xaml</DependentUpon>
     </Compile>
-    <Page Include="RecipeRecommendations.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Categories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -109,6 +105,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="SampleQScreen1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SampleQScreen2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -225,10 +225,22 @@
     <Resource Include="bookmark.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bananamuffins.jpg" />
+    <Resource Include="leftarrow.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="applepie.jpg" />
+    <Resource Include="right arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="beginner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="intermediate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="experienced.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pro.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
