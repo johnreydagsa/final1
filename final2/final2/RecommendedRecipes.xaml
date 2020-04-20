@@ -15,13 +15,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="80" Source="cookie.JPG" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="80" Source="jello.JPG" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
                                 <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
                             </Button>
-                            <Button  Background="White" Content="Chocolate chip cookies" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                            <Button  Background="White" Content="Jello Fruit Cake" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy cookies filled with chocolate" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Jello Fruit Cake Dessert is vibrant, refreshing and effortless, &#xD;&#xA;it is a blast from the past! Bring it to your next potluck &#xD;&#xA;and WOW your guests with this classic dessert. " BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="16"/>
 
                     </DockPanel>
 
@@ -30,13 +30,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="80" Source="bananamuffins.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="80" Source="vegesoup.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
                                 <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
                             </Button>
-                            <Button  Background="White" Content="Banana Muffins" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                            <Button  Background="White" Content="Vegetable Soup" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="These banana muffins are soft, buttery, and spiced with cinnamon." BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="When we're looking for a comforting meal packed with &#xD;&#xA;vegetables, this easy veggie soup is where we turn. &#xD;&#xA;It's made with a light tomato broth and adapts to all seasons.&#xD;&#xA; Feel free to use any seasonal vegetables you have on hand." BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="16"/>
 
                     </DockPanel>
 
@@ -45,13 +45,13 @@
                     <DockPanel Height="125" Width="635.2" LastChildFill="True">
                         <TextBlock  Width="30" Text="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;." FontSize="72" Foreground="Red"/>
                         <DockPanel Height="125" Width="150" >
-                            <Image Height ="80" Source="applepie.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Image Height ="80" Source="strawberry-lemonade-20.jpg" Stretch="Fill" DockPanel.Dock="Top" />
                             <Button Height ="25" DockPanel.Dock="Bottom" Background="White" BorderBrush="White" FontFamily="Sitka Heading">
                                 <Image Height="20" Source="star rate.jpg" Stretch="Fill" Width="150"/>
                             </Button>
-                            <Button  Background="White" Content="Apple Pie" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
+                            <Button  Background="White" Content="Strawberry Lemonade" BorderBrush="White" FontFamily="Sitka Heading" Margin="0,0.2,0,-0.2"/>
                         </DockPanel>
-                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Crispy chewy muffins filled with apples" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Easy Homemade Strawberry Lemonade! This is the most&#xD;&#xA; amazing summer drink loaded with fresh ripe strawberries&#xD;&#xA; and zesty tart lemon.  The entire family will love this refreshing drink, perfect for a hot summer day!  Make it into a&#xD;&#xA; cocktail by adding a splash of vodka!" BorderBrush="White" Foreground="Black" FontFamily="Sitka Heading" FontSize="14"/>
 
                     </DockPanel>
 
