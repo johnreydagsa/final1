@@ -11,7 +11,7 @@
         <Polygon Points="20,0 40,40, 0,40" Height="50" Width="300" Stroke="Black" Fill="#FFFF0011" Margin="370,280,122,89" />
         <Label Content="Find your next Recipe!" HorizontalAlignment="Left" Height="50" Margin="240,10,0,0" VerticalAlignment="Top" Width="284" FontFamily="Cooper" FontSize="24" OpacityMask="Black" Foreground="#FF4398E2"/>
         <Label Content="We will help you find your next recipe by asking you to answer some questions " HorizontalAlignment="Left" Height="44" Margin="64,60,0,0" VerticalAlignment="Top" Width="659" FontFamily="Cooper" Foreground="#FF4398E2" FontSize="16"/>
-        <Button Content="" HorizontalAlignment="Left" Height="74" Margin="339,178,0,0" VerticalAlignment="Top" Width="101">
+        <Button Content="" HorizontalAlignment="Left" Height="74" Margin="339,178,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1">
             <Button.Background>
                 <ImageBrush ImageSource="qmark2.jpg"/>
             </Button.Background>
@@ -44,7 +44,7 @@
         <Rectangle HorizontalAlignment="Left" Height="44" Margin="381,320,0,0" Stroke="Black" VerticalAlignment="Top" Width="17" Fill="#FFFF0011"/>
         <Label Content="Click the icon when you are ready!" HorizontalAlignment="Left" Height="33" Margin="240,369,0,0" VerticalAlignment="Top" Width="298" FontFamily="Cooper" Foreground="#FF4398E2" FontSize="16"/>
         <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go back to the main page  " VerticalAlignment="Top" Width="225" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
-        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54">
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="home.jpg"/>
             </Button.Background>
