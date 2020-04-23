@@ -7,97 +7,158 @@
         mc:Ignorable="d"
         Title="Savedrecipe" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
-	<Grid Margin="0,0,-6.667,-508.333">
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="459*"/>
-			<ColumnDefinition Width="341*"/>
-		</Grid.ColumnDefinitions>
+    <Grid Margin="0,0,-6.667,-508.333">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="459*"/>
+            <ColumnDefinition Width="341*"/>
+        </Grid.ColumnDefinitions>
 
-		<ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,528" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
-			<StackPanel Name="stackPanel1" Width="635.2"  >
-				<Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
-					<DockPanel Height="125" Width="635.2" LastChildFill="True">
-						<TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
-						<DockPanel Height="125" Width="150" >
-							<Image Height ="89" Source="cookie.jpg" Stretch="Fill" DockPanel.Dock="Top" />
-							<Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-							<Button Height="18"  Background="White" Content="Chocolate chip coockie" BorderBrush="White" FontWeight="Bold"/>
-						</DockPanel>
-						<Button DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48" Margin="0,0,0,35.333">
-							<Button Content="Crispy chewy cookies filled with chocolate" Width="450" Height="94" Click="Button_Click_2" FontSize="20"/>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" Width="742" HorizontalAlignment="Left" Margin="21,128,0,325.5" Grid.ColumnSpan="2" FontFamily="Sitka Heading">
+            <StackPanel Name="stackPanel1" Width="635.2"  >
+                <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
+                    <DockPanel Height="125" Width="635.2" LastChildFill="True">
+                        <TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
+                        <DockPanel Height="125" Width="150" >
+                            <Image Height ="89" Source="cookie.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
+                            <Button Height="18"  Background="White" Content="Chocolate chip coockie" BorderBrush="White" FontWeight="Bold"/>
+                        </DockPanel>
+                        <Button DockPanel.Dock="Right" Background="White" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="48" Margin="0,0,0,35.333">
+                            <Button Content="Crispy chewy cookies filled with chocolate" Width="450" Height="94" Click="Button_Click_2" FontSize="20"/>
 
-						</Button>
+                        </Button>
 
-					</DockPanel>
+                    </DockPanel>
 
-				</Button>
-				<Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
-					<DockPanel Height="125" Width="635.2" LastChildFill="True">
-						<TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
-						<DockPanel Height="125" Width="150" >
-							<Image Height ="89" Source="dairy.jpg" Stretch="Fill" DockPanel.Dock="Top" />
-							<Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-							<Button Height="18"  Background="White" Content="Creamy Mac and Cheese" BorderBrush="White"  FontWeight="Bold" Click="Button_Click_4"/>
-						</DockPanel>
-						<Button DockPanel.Dock="Right" Background="White" Content="a dairy product derived from milk that is produced&#xA; in a wide range of flavors, textures, and forms&#xA; by coagulation of the milk protein casein. It &#xA;comprises proteins and fat from milk, usually the&#xA; milk of cows, buffalo, goats, or sheep. &#xA;" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_1" Margin="0,0,0,10.333" Width="475"/>
+                </Button>
+                <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
+                    <DockPanel Height="125" Width="635.2" LastChildFill="True">
+                        <TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
+                        <DockPanel Height="125" Width="150" >
+                            <Image Height ="89" Source="dairy.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White">
+                                <Rectangle Width="131" Height="14" Fill="White" RadiusX="5" RadiusY="5" RenderTransformOrigin="0.878,-0.36" />
+                            </Button>
+                            <Button Height="18"  Background="White" Content="Creamy Mac and Cheese" BorderBrush="White"  FontWeight="Bold" Click="Button_Click_4"/>
+                        </DockPanel>
+                        <Button DockPanel.Dock="Right" Background="White" Content="a dairy product derived from milk that is produced&#xA; in a wide range of flavors, textures, and forms&#xA; by coagulation of the milk protein casein. It &#xA;comprises proteins and fat from milk, usually the&#xA; milk of cows, buffalo, goats, or sheep. &#xA;" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_1" Margin="0,0,0,10.333" Width="475"/>
 
-					</DockPanel>
+                    </DockPanel>
 
-				</Button>
-				<Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
-					<DockPanel Height="125" Width="635.2" LastChildFill="True">
-						<TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
-						<DockPanel Height="125" Width="150" >
-							<Image Height ="89" Source="gluten.jpg" Stretch="Fill" DockPanel.Dock="Top" />
-							<Button Content="star rating" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
-							<Button Height="18"  Background="White" Content="Chicken Salad Croissant" BorderBrush="White" FontWeight="Bold"/>
-						</DockPanel>
-						<Button Height="125" DockPanel.Dock="Right" Background="White" Content="Bread is a staple food prepared from a dough of &#xA;flour and water, usually by baking. Throughout &#xA;recorded history it has been a prominent food&#xA;in large parts of the world" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_3"/>
+                </Button>
+                <Button  Height="125" Background="White"  BorderBrush="White" Foreground="White" Click="Button_Click2">
+                    <DockPanel Height="125" Width="635.2" LastChildFill="True">
+                        <TextBlock  Width="30" Text="&#xA;&#xA;&#xA;&#xA;." FontSize="72" Foreground="Red"/>
+                        <DockPanel Height="125" Width="150" >
+                            <Image Height ="89" Source="gluten.jpg" Stretch="Fill" DockPanel.Dock="Top" />
+                            <Button Content="" Height ="20" DockPanel.Dock="Bottom" Background="White" BorderBrush="White"/>
+                            <Button Height="18"  Background="White" Content="Chicken Salad Croissant" BorderBrush="White" FontWeight="Bold"/>
+                        </DockPanel>
+                        <Button Height="125" DockPanel.Dock="Right" Background="White" Content="Bread is a staple food prepared from a dough of &#xA;flour and water, usually by baking. Throughout &#xA;recorded history it has been a prominent food&#xA;in large parts of the world" BorderBrush="White" Foreground="Black" FontWeight="Bold" FontSize="17" Click="Button_Click_3"/>
 
-					</DockPanel>
+                    </DockPanel>
 
-				</Button>
+                </Button>
 
 
 
-			</StackPanel>
-		</ScrollViewer>
-		<Label Content="Find your saved recipes!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,28,0,0" FontFamily="Cooper Black" FontSize="36" Grid.ColumnSpan="2" Width="469" Foreground="#FF4398E2"/>
-		<TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center" Grid.ColumnSpan="4"/>
-		<Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Grid.ColumnSpan="2" Click="Button_Click_goback">
-			<Button.Background>
-				<ImageBrush ImageSource="backarrow.png"/>
-			</Button.Background>
-		</Button>
+            </StackPanel>
+        </ScrollViewer>
+        <Label Content="Find your saved recipes!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="197,28,0,0" FontFamily="Cooper Black" FontSize="36" Grid.ColumnSpan="2" Width="469" Foreground="#FF4398E2"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center" Grid.ColumnSpan="4"/>
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Grid.ColumnSpan="2" Click="Button_Click_goback">
+            <Button.Background>
+                <ImageBrush ImageSource="backarrow.png"/>
+            </Button.Background>
+        </Button>
 
-		<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-			<Canvas Canvas.Left="20" Canvas.Top="20">
-				<Rectangle Width="131" Height="14" Fill="White" RadiusX="5" RadiusY="5" Canvas.Left="85" Canvas.Top="216" RenderTransformOrigin="0.878,-0.36" />
-				<Canvas Canvas.Left="5" Canvas.Top="20">
-					<Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="82" Canvas.Top="193.5" Width="17" Height="17" Stretch="Fill" />
-				</Canvas>
-				<Canvas Canvas.Left="45" Canvas.Top="20">
-					<Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="0.703,2.341" Height="17" Stretch="Fill" Canvas.Left="65.5" Canvas.Top="193.5" Width="17" />
-				</Canvas>
-				<Canvas Canvas.Left="85" Canvas.Top="20">
-					<Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="1.375,7.659" Canvas.Left="52" Canvas.Top="193" Height="17" Width="17" Stretch="Fill" />
-				</Canvas>
-				<Canvas Canvas.Left="125" Canvas.Top="20">
-					<Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="66.5" Canvas.Top="191.5" Stretch="Fill" Width="17" Height="17" RenderTransformOrigin="0.403,2.953" >
-						<Path.RenderTransform>
-							<TransformGroup>
-								<ScaleTransform ScaleX="-1"/>
-								<SkewTransform/>
-								<RotateTransform/>
-								<TranslateTransform X="6.014"/>
-							</TransformGroup>
-						</Path.RenderTransform>
-					</Path>
-				</Canvas>
-				<Canvas Canvas.Left="165" Canvas.Top="20">
-					<Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="-0.5" Canvas.Top="194.5" Height="17" Stretch="Fill" Width="17" RenderTransformOrigin="1.978,0.816" />
-				</Canvas>
-			</Canvas>
-		</Canvas>
-	</Grid>
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Canvas Canvas.Left="20" Canvas.Top="20">
+                <Rectangle Width="131" Height="14" Fill="White" RadiusX="5" RadiusY="5" Canvas.Left="85" Canvas.Top="216" RenderTransformOrigin="0.878,-0.36" />
+                <Canvas Canvas.Left="5" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="82" Canvas.Top="193.5" Width="17" Height="17" Stretch="Fill" />
+                </Canvas>
+                <Canvas Canvas.Left="45" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="0.703,2.341" Height="17" Stretch="Fill" Canvas.Left="65.5" Canvas.Top="193.5" Width="17" />
+                </Canvas>
+                <Canvas Canvas.Left="85" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="1.375,7.659" Canvas.Left="52" Canvas.Top="193" Height="17" Width="17" Stretch="Fill" />
+                </Canvas>
+                <Canvas Canvas.Left="125" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="66.5" Canvas.Top="191.5" Stretch="Fill" Width="17" Height="17" RenderTransformOrigin="0.403,2.953" >
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="6.014"/>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                </Canvas>
+                <Canvas Canvas.Left="165" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="8.5" Canvas.Top="322" Height="17" Stretch="Fill" Width="17" RenderTransformOrigin="1.978,0.816" />
+                </Canvas>
+            </Canvas>
+        </Canvas>
+
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Canvas Canvas.Left="20" Canvas.Top="40">
+                <Canvas Canvas.Left="5" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="85" Canvas.Top="300" Width="17" Height="17" Stretch="Fill" />
+                </Canvas>
+                <Canvas Canvas.Left="45" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="0.703,2.341" Height="17" Stretch="Fill" Canvas.Left="67" Canvas.Top="301.5" Width="17" />
+                </Canvas>
+                <Canvas Canvas.Left="85" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="1.375,7.659" Canvas.Left="56.5" Canvas.Top="301" Height="17" Width="17" Stretch="Fill" />
+                </Canvas>
+                <Canvas Canvas.Left="125" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="72.5" Canvas.Top="301" Stretch="Fill" Width="17" Height="17" RenderTransformOrigin="0.403,2.953" >
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="6.014"/>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                </Canvas>
+                <Canvas Canvas.Left="165" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="4" Canvas.Top="172" Height="17" Stretch="Fill" Width="17" RenderTransformOrigin="1.978,0.816" />
+                </Canvas>
+            </Canvas>
+        </Canvas>
+
+
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Canvas Canvas.Left="20" Canvas.Top="60">
+                <Canvas Canvas.Left="5" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="83.5" Canvas.Top="400.5" Width="17" Height="17" Stretch="Fill" RenderTransformOrigin="0.706,5.618" />
+                </Canvas>
+                <Canvas Canvas.Left="45" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="0.703,2.341" Height="17" Stretch="Fill" Canvas.Left="71.5" Canvas.Top="402" Width="17" />
+                </Canvas>
+                <Canvas Canvas.Left="85" Canvas.Top="20">
+                    <Path Stroke="#000080" Fill="#FFFF00" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" RenderTransformOrigin="1.375,7.659" Canvas.Left="61" Canvas.Top="401.5" Height="17" Width="17" Stretch="Fill" />
+                </Canvas>
+                <Canvas Canvas.Left="125" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="78.5" Canvas.Top="401.5" Stretch="Fill" Width="17" Height="17" RenderTransformOrigin="0.403,2.953" >
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform X="6.014"/>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                </Canvas>
+                <Canvas Canvas.Left="165" Canvas.Top="20">
+                    <Path Stroke="#808080" Fill="#C0C0C0" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="M 0,0 l 10,0 l 5,-10 l 5,10 l 10,0 l -7,10 l 2,10 l -10,-5 l -10,5 l 2,-10 Z" Canvas.Left="10" Canvas.Top="403" Height="17" Stretch="Fill" Width="17" RenderTransformOrigin="1.978,0.816" />
+                </Canvas>
+            </Canvas>
+        </Canvas>
+    </Grid>
 </Window>
