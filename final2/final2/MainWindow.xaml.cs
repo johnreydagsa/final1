@@ -43,19 +43,18 @@ namespace final2
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            string name = recipename.Text;
-            if (name.ToUpper().Equals("CHOCOLATE CHIP"))
-            {
                 RecipeInstruction  recipe = new RecipeInstruction();
                 this.Close();
                 recipe.ShowDialog();
 
-            }
+
         }
 
         private void Button_Click_3(object sender,  RoutedEventArgs e)
         {
-
+            guidequestioninstruction guide = new guidequestioninstruction();
+            this.Close();
+            guide.ShowDialog();
         }
     }
 }
