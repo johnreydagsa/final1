@@ -37,5 +37,12 @@ namespace final2
             this.Close();
             main.ShowDialog();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Savedrecipe saved = new Savedrecipe();
+            this.Close();
+            saved.ShowDialog();
+        }
     }
 }

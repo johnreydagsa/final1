@@ -25,7 +25,7 @@
         </ScrollViewer>
         <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="311,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="193" Width="352" FontSize="16" Foreground="#FF4398E2" FontFamily="Sitka Heading"><Run Text="1. Read the recipe thoroughly ahead of time"/><LineBreak/><Run Text="2. Prepare and organize ahead of time"/><LineBreak/><Run Text="3. Don't overcrowd your pan or baking dish"/><LineBreak/><Run Text="4. Use fresh, quality ingredients"/><LineBreak/><Run Text="5. Do not leave the kitchen"/></TextBlock>
         <Image Grid.Column="3" HorizontalAlignment="Left" Height="158" Margin="311,19,0,0" VerticalAlignment="Top" Width="288" RenderTransformOrigin="0.49,0.8" Source="https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg"/>
-        <Button Content="Bookmark" Grid.Column="3" HorizontalAlignment="Left" Margin="110,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607"/>
+        <Button Content="Bookmark" Grid.Column="3" HorizontalAlignment="Left" Margin="110,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607" Click="Button_Click_2"/>
         <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center" Grid.ColumnSpan="4"/>
         <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Grid.ColumnSpan="2" Click="Button_Click">
             <Button.Background>
