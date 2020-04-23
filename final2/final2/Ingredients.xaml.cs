@@ -15,12 +15,14 @@ namespace final2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Categories categories = new Categories();
+            this.Close();
             categories.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             RecipeInstruction recipeInstruction = new RecipeInstruction();
+            this.Close();
             recipeInstruction.ShowDialog();
         }
     }

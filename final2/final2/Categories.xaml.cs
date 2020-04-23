@@ -29,15 +29,15 @@ namespace final2
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Ingredients ingre = new Ingredients();
-            ingre.ShowDialog();
             this.Close();
+            ingre.ShowDialog();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
-            main.ShowDialog();
             this.Close();
+            main.ShowDialog();
         }
     }
 }
