@@ -5,23 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:final2"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800"
+        Title="RecipeInstruction" Height="450" Width="800"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center"/>
-        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="745*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="10,9,0,0" TextWrapping="Wrap" Text="Go Back" VerticalAlignment="Top" Width="115" TextAlignment="Right" FontFamily="Sitka Heading" FontSize="14" VerticalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Button Content="" HorizontalAlignment="Left" Height="49" Margin="10,9,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click" Grid.ColumnSpan="2">
             <Button.Background>
                 <ImageBrush ImageSource="backarrow.png"/>
             </Button.Background>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Margin="101,74,0,0" TextWrapping="Wrap" Text="Chocolate Chip Cookie" VerticalAlignment="Top" Height="30" Width="208" FontSize="20" FontFamily="Cooper" Foreground="#FF4398E2"/>
-        <Button Content="Finish Recipe" HorizontalAlignment="Left" Margin="96,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607"/>
-        <Button Content="Bookmark" HorizontalAlignment="Left" Margin="206,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607"/>
-        <TextBlock HorizontalAlignment="Left" Margin="101,182,0,0" TextWrapping="Wrap" Text="Instructions" VerticalAlignment="Top" Height="30" Width="188" FontSize="18" Foreground="#FF4398E2" FontFamily="Cooper"/>
-        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto" x:Name="sv1" RenderTransformOrigin="6.466,0.517" Margin="0,212,36,10" Foreground="#FF4398E2" FontFamily="Sitka Heading">
+        <TextBlock HorizontalAlignment="Left" Margin="54,74,0,0" TextWrapping="Wrap" Text="Chocolate Chip Cookie" VerticalAlignment="Top" Height="30" Width="263" FontSize="20" FontFamily="Cooper" Foreground="#FF4398E2" Grid.Column="1"/>
+        <Button Content="Finish Recipe" HorizontalAlignment="Left" Margin="49,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607" Grid.Column="1" Click="Button_Finish_Recipe"/>
+        <Button Content="Bookmark" HorizontalAlignment="Left" Margin="159,104,0,0" VerticalAlignment="Top" Width="110" Height="33" RenderTransformOrigin="0.458,-0.607" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="54,182,0,0" TextWrapping="Wrap" Text="Instructions" VerticalAlignment="Top" Height="30" Width="188" FontSize="18" Foreground="#FF4398E2" FontFamily="Cooper" Grid.Column="1"/>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto" x:Name="sv1" RenderTransformOrigin="6.466,0.517" Margin="0,212,36,10" Foreground="#FF4398E2" FontFamily="Sitka Heading" Grid.ColumnSpan="2">
             <TextBlock TextWrapping="Wrap" Width="671" Height="198" x:Name="txt1" FontSize="18" Foreground="#FF4398E2" FontFamily="Sitka Heading" LineHeight="6"><Run Text="1. Preheat oven to over 175 degrees C. "/><Run Text="&#xD;&#xA;2. Cream together the butter, white sugar, and white sugar until smooth.&#xD;&#xA;3. Beat in the eggs one at a time, then stir in the vanilla.&#xD;&#xA;4. Dissolve baking soda in hot water.&#xD;&#xA;5. Add to batter along with salt&#xD;&#xA;6. Stir in flour, chocolate chips and nuts&#xD;&#xA;"/></TextBlock>
         </ScrollViewer>
-        <Image HorizontalAlignment="Left" Height="158" Margin="407,19,0,0" VerticalAlignment="Top" Width="288" RenderTransformOrigin="0.49,0.8" Source="https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg"/>
+        <Image HorizontalAlignment="Left" Height="158" Margin="360,19,0,0" VerticalAlignment="Top" Width="288" RenderTransformOrigin="0.49,0.8" Source="https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg" Grid.Column="1"/>
 
     </Grid>
 </Window>

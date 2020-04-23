@@ -29,12 +29,14 @@ namespace final2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Categories category = new Categories();
+            this.Close();
             category.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Savedrecipe saved = new Savedrecipe();
+            this.Close();
             saved.ShowDialog();
         }
 
@@ -44,8 +46,8 @@ namespace final2
             if (name.ToUpper().Equals("CHOCOLATE CHIP"))
             {
                 RecipeInstruction recipe = new RecipeInstruction();
+                this.Close();
                 recipe.ShowDialog();
-                Close();
             }
         }
     }
