@@ -43,9 +43,9 @@ namespace final2
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-                RecipeInstruction  recipe = new RecipeInstruction();
-                this.Close();
-                recipe.ShowDialog();
+            Ingredients ingred = new Ingredients();
+            this.Close();                
+            ingred.ShowDialog();
 
 
         }
