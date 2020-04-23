@@ -35,7 +35,7 @@
         <TextBlock HorizontalAlignment="Left" Height="19" Margin="659,457,0,0" TextWrapping="Wrap" Text="Mains" VerticalAlignment="Top" Width="73" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
         <TextBlock HorizontalAlignment="Left" Height="19" Margin="737,457,0,0" TextWrapping="Wrap" Text="Beverages" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
         <TextBlock HorizontalAlignment="Left" Height="19" Margin="816,457,0,0" TextWrapping="Wrap" Text="Desserts" VerticalAlignment="Top" Width="74" TextAlignment="Center" FontFamily="Sitka Heading" Foreground="#FF4398E2"/>
-        <Button Content="" HorizontalAlignment="Left" Height="57" Margin="615,176,0,0" VerticalAlignment="Top" Width="80">
+        <Button Content="" HorizontalAlignment="Left" Height="57" Margin="615,176,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click_3">
             <Button.Background>
                 <ImageBrush ImageSource="explore.jpg"/>
             </Button.Background>
