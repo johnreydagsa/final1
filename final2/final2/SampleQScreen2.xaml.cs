@@ -23,5 +23,26 @@ namespace final2
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            this.Close();
+            main.ShowDialog();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SampleQScreen1 sample1 = new SampleQScreen1();
+            this.Close();
+            sample1.ShowDialog();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            RecommendedRecipes recommended = new RecommendedRecipes();
+            this.Close();
+            recommended.ShowDialog();
+        }
     }
 }
