@@ -48,6 +48,7 @@ namespace final2
                 RecipeInstruction recipe = new RecipeInstruction();
                 this.Close();
                 recipe.ShowDialog();
+                this.Close();
             }
         }
     }
